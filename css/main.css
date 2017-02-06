@@ -16,9 +16,10 @@ html, body {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     #social {
         text-align: center;
+
     }
     #social hr {
         margin: 5% auto;
@@ -29,6 +30,12 @@ html, body {
 @media (min-width: 992px) {
     #hero-title {
         font-size: 3.5em;
+    }
+}
+
+@media (max-width: 1180px) {
+    #social {
+        background: none !important;
     }
 }
 
@@ -112,6 +119,10 @@ nav .navbar-nav a:hover {
 
 #social {
     padding: 8%;
+    background-image:url('../img/background.png');
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 hr.style {
