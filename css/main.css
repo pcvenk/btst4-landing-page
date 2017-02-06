@@ -16,6 +16,16 @@ html, body {
     }
 }
 
+@media (max-width: 768px){
+    #social {
+        text-align: center;
+    }
+    #social hr {
+        margin: 5% auto;
+    }
+
+}
+
 @media (min-width: 992px) {
     #hero-title {
         font-size: 3.5em;
@@ -47,6 +57,10 @@ nav .navbar-nav a:hover {
     cursor: pointer;
 }
 
+.navbar-toggler .fa {
+    color: #be2835;
+}
+
 /*END OF NAVBAR STYLING*/
 
 /*HEADER*/
@@ -72,10 +86,11 @@ nav .navbar-nav a:hover {
 
 #chevron .fa {
     transition: all 0.3s ease-in-out;
+    color: #be2835;
 }
 
 #chevron .fa:hover {
-    color: #E4E4E4;
+    color: #96222f;
     cursor: pointer;
 }
 
@@ -92,3 +107,39 @@ nav .navbar-nav a:hover {
 }
 
 /*HEADER END*/
+
+/*SOCIAL*/
+
+#social {
+    padding: 8%;
+}
+
+hr.style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#social .fa {
+    font-size: 2em;
+    color: #be2835;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #be2835;
+    border-radius: 20%;
+    text-align: center;
+    padding: 26% 0;
+    margin-bottom: 10%;
+    transition: all 0.4s ease-in-out;
+}
+
+#social .fa:hover {
+    color: white;
+    background-color: #be2835;
+}
+
+.social-icons {
+    padding-top: 3%;
+}
+
+/*SOCIAL END*/
