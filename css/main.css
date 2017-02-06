@@ -1,21 +1,25 @@
+html, body {
+    height: 100%;
+    font-family: 'Lato', serif;
 
+}
 /*STYLING THE NAVBAR*/
 
 nav .navbar-nav a {
     color: #cacaca !important;
-    font-family: 'Lora', serif;
+    font-family: 'Lato', serif;
     letter-spacing: 1px;
 
 }
 
 nav .navbar-nav a:hover {
     color: #E4E4E4 !important;
-    font-family: 'Lora', serif;
+    font-family: 'Lato', serif;
 }
 
 .navbar-fixed-top {
-    background-color: rgba(9, 9, 9, 0.7);
-    border-bottom: 1px solid #606060;
+    background-color: rgba(112, 112, 112, 0.2);
+    border-bottom: 1px solid #bababa;
 }
 
 .navbar-toggler {
@@ -25,3 +29,26 @@ nav .navbar-nav a:hover {
 }
 
 /*END OF NAVBAR STYLING*/
+
+/*HEADER*/
+
+#header {
+    background:url('../img/stars-bg.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#chevron-container {
+    position: relative;
+
+}
+
+#chevron {
+    position: relative;
+    bottom: -50px;
+}
+
+/*HEADER END*/
