@@ -1,0 +1,27 @@
+
+/*STYLING THE NAVBAR*/
+
+nav .navbar-nav a {
+    color: #cacaca !important;
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+
+}
+
+nav .navbar-nav a:hover {
+    color: #E4E4E4 !important;
+    font-family: 'Lora', serif;
+}
+
+.navbar-fixed-top {
+    background-color: rgba(9, 9, 9, 0.7);
+    border-bottom: 1px solid #606060;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    color: white;
+    cursor: pointer;
+}
+
+/*END OF NAVBAR STYLING*/
