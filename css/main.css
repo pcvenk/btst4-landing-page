@@ -4,6 +4,10 @@ html, body {
 
 }
 
+h2 {
+    font-weight: 900;
+}
+
 .btn {
     transition: all 0.3s ease-in-out;
 }
@@ -42,19 +46,19 @@ html, body {
 /*STYLING THE NAVBAR*/
 
 nav .navbar-nav a {
-    color: #cacaca !important;
+    color: rgb(0, 0, 0) !important;
     font-family: 'Lato', serif;
     letter-spacing: 1px;
 
 }
 
 nav .navbar-nav a:hover {
-    color: #E4E4E4 !important;
+    color: #f9f9f9 !important;
     font-family: 'Lato', serif;
 }
 
 .navbar-fixed-top {
-    background-color: rgba(112, 112, 112, 0.2);
+    background-color: rgba(91, 91, 91, 0.49);
     border-bottom: 1px solid #bababa;
 }
 
