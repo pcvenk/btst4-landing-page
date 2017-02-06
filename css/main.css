@@ -197,5 +197,17 @@ hr.style {
     font-size: 1.2em;
 }
 
+#who .btn-outline-danger {
+    width: 250px;
+    border-color: #be2835;
+    color: #be2835;
+
+}
+
+#who .btn-outline-danger:hover {
+    background-color: #be2835;
+    color: white;
+}
+
 
 /*END OF WHO*/
