@@ -207,6 +207,7 @@ hr.style {
     width: 250px;
     color: #17b0d0;
     border: 1px solid #17b0d0;
+    border-radius: 0;
 }
 
 #who .btn-outline-info:hover {
@@ -374,7 +375,8 @@ h6 {
 
 #contact {
     padding: 8%;
-    background-image: url('../img/nvbohu7yloc-josep-castells.jpg');
+    /*background-image: url('../img/nvbohu7yloc-josep-castells.jpg');*/
+    background-image: url('../img/t9ljtyotw_g-jorge-rojas.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,6 +404,7 @@ h6 {
 #contact .btn-outline-info {
     color: #17b0d0;
     border: 1px solid #17b0d0;
+    border-radius: 0;
 }
 
 #contact .btn-outline-info:hover {
