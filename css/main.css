@@ -205,11 +205,13 @@ hr.style {
 
 #who .btn-outline-info {
     width: 250px;
-
+    color: #17b0d0;
+    border: 1px solid #17b0d0;
 }
 
-#who .btn-outline-danger:hover {
-    background-color: #be2835;
+#who .btn-outline-info:hover {
+    background-color: #17b0d0;
+    cursor: pointer;
     color: white;
 }
 
@@ -346,7 +348,8 @@ h6 {
 }
 
 #customers .carousel-indicators li {
-    background-color: #be2835;
+    /*background-color: #be2835;*/
+    background-color: #17b0d0;
 }
 
 #customers .carousel-inner {
@@ -394,6 +397,17 @@ h6 {
 
 #contact .form form p {
     text-align: center;
+}
+
+#contact .btn-outline-info {
+    color: #17b0d0;
+    border: 1px solid #17b0d0;
+}
+
+#contact .btn-outline-info:hover {
+    background-color: #17b0d0;
+    cursor: pointer;
+    color: white;
 }
 
 
