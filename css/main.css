@@ -5,7 +5,8 @@ html, body {
 }
 
 h2 {
-    font-weight: 900;
+    font-weight: 400;
+    font-size: 42px;
 }
 
 .btn {
@@ -337,3 +338,31 @@ h6 {
 }
 
 /*END OF WHY*/
+
+/*CUSTOMERS*/
+
+#customers {
+    padding: 8%;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+#customers .carousel-indicators li {
+    background-color: #be2835;
+}
+
+#customers .carousel-inner {
+    margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+    margin-bottom: -50px;
+}
+
+#customers .carousel {
+    margin-top: 20px;
+}
+
+#customers blockquote {
+    border-left: 0.2rem solid #be2835;
+}
+/*END OF CUSTOMERS*/
