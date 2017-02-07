@@ -54,7 +54,7 @@
                 <a href="#customers" class="nav-link">CUSTOMERS</a>
             </li>
             <li class="nav-item">
-                <a href="#pricing" class="nav-link">PRICING</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -139,7 +139,7 @@
                     is ranked first.</p>
 
                 <button type="button"
-                        class="btn btn-outline-danger"
+                        class="btn btn-outline-info"
                 >More Info</button>
             </div>
         </div>
@@ -154,9 +154,9 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6 work">
+            <div class="col-md-12 work text-sm-center">
                 <h2>Featured Work:</h2>
-                <hr class="style" align="left" width="300px">
+                <hr class="style" align="center" width="300px">
             </div>
         </div>
 
@@ -411,6 +411,63 @@
 </section>
 
 <!--END OF CUSTOMERS-->
+
+<!--CONTACT-->
+
+<section id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 text-xs-center">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3 form">
+                <form>
+                    <p class="lead">Need to get in touch?<br>Fill in the form below for more
+                        information:</p>
+                    <fieldset class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email"
+                               class="form-control form-control-sm"
+                               id="email"
+                               required>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text"
+                               class="form-control form-control-sm"
+                               id="name"
+                               required>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text"
+                               class="form-control form-control-sm"
+                               id="subject"
+                               required>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control form-control-sm"
+                                  id="message"
+                                  rows="5">
+                        </textarea>
+                    </fieldset>
+
+                    <button type="submit"
+                            class="btn btn-outline-info btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--END OF CONTACT-->
 
 
 <!-- jQuery first, then Bootstrap JS. -->

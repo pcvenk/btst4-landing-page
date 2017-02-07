@@ -203,10 +203,8 @@ hr.style {
     font-size: 1.2em;
 }
 
-#who .btn-outline-danger {
+#who .btn-outline-info {
     width: 250px;
-    border-color: #be2835;
-    color: #be2835;
 
 }
 
@@ -365,5 +363,38 @@ h6 {
 
 #customers blockquote {
     border-left: 0.2rem solid rgba(122, 122, 122, 0.6);
+    font-weight: 300;
 }
 /*END OF CUSTOMERS*/
+
+/*CONTACT*/
+
+#contact {
+    padding: 8%;
+    background-image: url('../img/nvbohu7yloc-josep-castells.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120%;
+}
+
+#contact p {
+    margin-bottom: 30px;
+}
+
+#contact h2, #contact p, #contact label {
+    color: white;
+}
+
+#contact .form {
+    background-color: rgba(0,0,0,0.54);
+    padding: 50px 50px;
+    margin-top: 40px;
+}
+
+#contact .form form p {
+    text-align: center;
+}
+
+
+/*END OF CONTACT*/
