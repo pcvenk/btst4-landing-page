@@ -461,5 +461,28 @@ h6 {
     color: white;
 }
 
-
 /*END OF CONTACT*/
+
+/*FOOTER*/
+
+#footer {
+    padding: 5%;
+    background-color: #0c0d0e;
+    color: white;
+}
+
+#footer .fa {
+    color: white;
+    margin-right: 10px;
+}
+
+#footer .footer-text {
+    font-family: 'Lato', serif;
+    margin-left: 10px;
+}
+
+#footer .list-unstyled {
+    margin-top: 30px;
+}
+
+/*END OF FOOTER*/
