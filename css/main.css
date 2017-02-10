@@ -112,9 +112,9 @@ nav .navbar-nav a:hover {
     -webkit-animation-duration: 1.5s;
     -moz-animation-duration: 1.5s;
     -ms-animation-duration: 1.5s;
-    -moz-animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    -ms-animation-delay: 2s;
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
 }
 
 #chevron .fa {
@@ -423,8 +423,8 @@ h6 {
 
 #contact {
     padding: 8%;
-    /*background-image: url('../img/nvbohu7yloc-josep-castells.jpg');*/
-    background-image: url('../img/t9ljtyotw_g-jorge-rojas.jpg');
+    background-image: url('../img/nvbohu7yloc-josep-castells.jpg');
+    /*background-image: url('../img/t9ljtyotw_g-jorge-rojas.jpg');*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
