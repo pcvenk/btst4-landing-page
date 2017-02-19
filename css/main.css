@@ -159,8 +159,17 @@ nav .navbar-nav a:hover {
 
 }
 
+/*.stroke {*/
+    /*font-weight: 400;*/
+    /*font-size: 4.5em;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*-webkit-text-stroke: 1px white;*/
+/*}*/
+
 #heading-prefix {
-    color: #be2835;
+    /*-webkit-text-fill-color: #be2835;*/
+    /*-webkit-text-stroke: 1px #be2835;*/
+    color: #be2835 !important;
 }
 
 .display-4 {
@@ -288,6 +297,7 @@ hr.style {
     transition: all 0.45s ease-in-out;
     position: relative;
     background-color: white;
+
 }
 
 .card-outline-secondary:hover {
@@ -361,6 +371,20 @@ h6 {
 #work .work-img .overlay-img:hover {
     opacity: 1 !important;
     z-index: 1 !important;
+}
+
+#work .scale {
+    overflow: hidden !important;
+}
+
+#work .work-img {
+    width: 100%;
+    transition: all 2s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+#work .work-img:hover {
+    transform: scale(1.2);
 }
 
 /*END OF WORK*/
